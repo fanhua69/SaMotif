@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{7ADD2EF1-04F0-4A43-AB52-DFA790238D9A}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25420.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Release/SAMotif.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <OutputFile>.\Release/SAMotif.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/SAMotif.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\Release/SAMotif.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Debug/SAMotif.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>.\Debug/SAMotif.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/SAMotif.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\Debug/SAMotif.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dlgprogress.cpp" />
+    <ClCompile Include="geosrc\cmpannealdoc.cpp" />
+    <ClCompile Include="geosrc\CMPFile.cpp" />
+    <ClCompile Include="geosrc\CMPIndexFile.cpp" />
+    <ClCompile Include="geosrc\FHGlobal.cpp" />
+    <ClCompile Include="geosrc\FHString.cpp" />
+    <ClCompile Include="geosrc\range.cpp" />
+    <ClCompile Include="geosrc\reverse.cpp" />
+    <ClCompile Include="geosrc\SegyMultiGroup.cpp" />
+    <ClCompile Include="geosrc\SimuAnnealParDoc.cpp" />
+    <ClCompile Include="geosrc\StaticDoc.cpp" />
+    <ClCompile Include="geosrc\StocConj.cpp" />
+    <ClCompile Include="geosrc\SvSysDoc.cpp" />
+    <ClCompile Include="geosrc\SvSysDoc2.cpp" />
+    <ClCompile Include="geosrc\SvSysDoc3.cpp" />
+    <ClCompile Include="geosrc\SvSysDoc4.cpp" />
+    <ClCompile Include="geosrc\SvSysDoc5.cpp" />
+    <ClCompile Include="motifsrc\calc.cpp" />
+    <ClCompile Include="motifsrc\dlgcalc.cpp" />
+    <ClCompile Include="motifsrc\dlgdrawpartcmp.cpp" />
+    <ClCompile Include="motifsrc\dlgmakesvsys.cpp" />
+    <ClCompile Include="motifsrc\dlgmotif.cpp" />
+    <ClCompile Include="motifsrc\dlgprogress.cpp" />
+    <ClCompile Include="motifsrc\drawpartcmp.cpp" />
+    <ClCompile Include="motifsrc\filedialog.cpp" />
+    <ClCompile Include="motifsrc\main.cpp" />
+    <ClCompile Include="motifsrc\makesvsys.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="geosrc\cgg.h" />
+    <ClInclude Include="geosrc\cmpannealdoc.h" />
+    <ClInclude Include="geosrc\CMPFile.h" />
+    <ClInclude Include="geosrc\CMPIndexFile.h" />
+    <ClInclude Include="geosrc\datafmt.h" />
+    <ClInclude Include="geosrc\FHGlobal.h" />
+    <ClInclude Include="geosrc\FHString.h" />
+    <ClInclude Include="geosrc\GriHead.h" />
+    <ClInclude Include="geosrc\MyGroupHead.h" />
+    <ClInclude Include="geosrc\MyPoint.h" />
+    <ClInclude Include="geosrc\powermethod.h" />
+    <ClInclude Include="geosrc\Range.h" />
+    <ClInclude Include="geosrc\reverse.h" />
+    <ClInclude Include="geosrc\segy.h" />
+    <ClInclude Include="geosrc\SegYMultiGroup.h" />
+    <ClInclude Include="geosrc\SimuAnnealParDoc.h" />
+    <ClInclude Include="geosrc\StaticDoc.h" />
+    <ClInclude Include="geosrc\StaticValueChange.h" />
+    <ClInclude Include="geosrc\StocConj.h" />
+    <ClInclude Include="geosrc\SvSysDoc.h" />
+    <ClInclude Include="geosrc\TarFunction.h" />
+    <ClInclude Include="geosrc\templates.h" />
+    <ClInclude Include="motifsrc\calc.h" />
+    <ClInclude Include="motifsrc\dlgcalc.h" />
+    <ClInclude Include="motifsrc\dlgdrawpartcmp.h" />
+    <ClInclude Include="motifsrc\dlgmakesvsys.h" />
+    <ClInclude Include="motifsrc\dlgmotif.h" />
+    <ClInclude Include="motifsrc\dlgprogress.h" />
+    <ClInclude Include="motifsrc\drawpartcmp.h" />
+    <ClInclude Include="motifsrc\filedialog.h" />
+    <ClInclude Include="motifsrc\makesvsys.h" />
+    <ClInclude Include="motifsrc\samotif.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{601408e6-5f50-4910-b01c-b7e28d1bdaeb}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f1af5528-a8de-4c41-bc26-71097af410ae}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{037d699d-928a-49f5-84f4-cd780e1f813d}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="motifsrc\calc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\cmpannealdoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\CMPFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\CMPIndexFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motifsrc\dlgcalc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motifsrc\dlgdrawpartcmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motifsrc\dlgmakesvsys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motifsrc\dlgmotif.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgprogress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motifsrc\dlgprogress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motifsrc\drawpartcmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\FHGlobal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\FHString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motifsrc\filedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motifsrc\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motifsrc\makesvsys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\range.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\reverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\SegyMultiGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\SimuAnnealParDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\StaticDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\StocConj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\SvSysDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\SvSysDoc2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\SvSysDoc3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\SvSysDoc4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geosrc\SvSysDoc5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="motifsrc\calc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\cgg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\cmpannealdoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\CMPFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\CMPIndexFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\datafmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motifsrc\dlgcalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motifsrc\dlgdrawpartcmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motifsrc\dlgmakesvsys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motifsrc\dlgmotif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motifsrc\dlgprogress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motifsrc\drawpartcmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\FHGlobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\FHString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motifsrc\filedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\GriHead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motifsrc\makesvsys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\MyGroupHead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\MyPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\powermethod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\Range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\reverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motifsrc\samotif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\segy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\SegYMultiGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\SimuAnnealParDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\StaticDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\StaticValueChange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\StocConj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\SvSysDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\TarFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geosrc\templates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
